@@ -25,7 +25,7 @@ export default function Hero() {
       {/* Skyline Background */}
       <div className="skyline-background">
         <div className="gradient-overlay"></div>
-        <video
+        {/* <video
           // src="/573262_Business_Stock_3840x2160.mp4"
           src="/3d-rendering-financial-neon-bull.jpg"
           alt="City Skyline"
@@ -34,7 +34,13 @@ export default function Hero() {
           loop
           muted
           playsInline
-        />
+        /> */}
+        <img
+  src="/3d-rendering-financial-neon-bull.jpg"
+  alt="City Skyline"
+  className="skyline-video"
+/>
+
       </div>
 
       {/* Content */}
